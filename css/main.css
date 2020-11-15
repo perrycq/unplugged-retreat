@@ -248,6 +248,10 @@ textarea {
     flex-flow: row wrap;
    }
 
+   .contact-content p {
+     margin: 0;
+   }
+
    /* --------- Mobile Styles - FAQ Page --------- */
 
    .faq-area {
@@ -264,6 +268,14 @@ textarea {
     flex-flow: row wrap;
    }
 
+   .faq h2 {
+     margin-bottom: 40px;
+   }
+
+   .faq-content {
+     margin-bottom: 50px;
+   }
+   
 /* ==========================================================================
    Helper classes
    ========================================================================== */
