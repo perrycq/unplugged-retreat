@@ -363,6 +363,115 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media(min-width: 768px) {
+/* Tablet styles */
+
+/* General Styles */
+.content-wrapper {
+max-width: 640px;
+margin: 100px 0;
+}
+
+/* Header */
+header {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+header .content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav {
+  width: 50%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-divider {
+  display: none;
+}
+
+/* hero area */
+
+/* aside */
+aside .content-wrapper {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 45%;
+  margin: 0;
+}
+
+/* features */
+.features article {
+  width: 82%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  flex-basis: 205px;
+}
+
+.features .features-item-description {
+  width: 31%;
+}
+
+/* reviews */
+.reviews article {
+  width:50%;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews article div {
+  width: 100%;
+}
+
+/* footer */
+footer .content-wrapper {
+  width: 100%;
+  margin: 100px 0;
+}
+
+.footer-content {
+  width:80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer .contact {
+  margin-bottom: 0;
+}
+
+footer .copyright {
+  width:30%;
+}
+
+/* faq */
+.faq-content {
+  flex-basis: 306px;
+}
+}
+
+@media(min-width: 1200px) {
+/* Desktop styles */
+
+
+}
+
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
@@ -449,4 +558,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
