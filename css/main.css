@@ -464,6 +464,28 @@ footer .copyright {
 .faq-content {
   flex-basis: 306px;
 }
+
+/* about */
+.mission-content {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mission-content p {
+  width:50%;
+}
+
+.contact-section .content-wrapper h2 {
+  width: 88%;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 }
 
 @media(min-width: 1200px) {
