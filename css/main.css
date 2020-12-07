@@ -86,13 +86,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  /* General Styles */
+
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
+  }
+
+  ul,
+  ol {
+    list-style-type: none;
+  }
+
+  a {
+    color: #e2e3ed;
+    text-decoration: none;
+  }
+
+  h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+  }
+
+  h3,
+  h4 {
+    font-family: 'Poppins' sans-serif;
+    font-size: 1.125em;
+    margin: 20px 0;
+  }
+
+  p {
+    font-size: .875em;
+    line-height: 1.285;
+  }
+
+  img {
+
+  }
+
+  figure {
+
+  }
+
+  address {
+    font-style: normal;
+  }
+
+  .content-wrapper {
+    width:90%;
+    margin: 50px 0;
+    background-color: #2a423a;
+    color: #e2e3ed
+  }
+
 
    /* --------------Base Header - Footer Styles------- */
-
-   .content-wrapper {
-     width: 90%;
-     margin: 50px 0;
-   }
 
    header,
    footer {
@@ -132,10 +185,6 @@ textarea {
     display: flex;
     justify-content: space-around;
     width: 100%;
-   }
-
-   header nav ul li {
-    list-style-type: none;
    }
 
    footer {
@@ -180,6 +229,7 @@ textarea {
     flex-flow: row wrap;
    }
 
+   /* Aside */
    aside {
     display: flex;
     justify-content: center;
@@ -187,6 +237,7 @@ textarea {
     flex-flow: row wrap;
    }
 
+   /* Features */
    .features {
     display: flex;
     justify-content: center;
@@ -213,6 +264,7 @@ textarea {
      margin: 0;
    }
 
+   /* Reviews */
    .reviews {
     display: flex;
     justify-content: center;
@@ -254,14 +306,14 @@ textarea {
 
    /* --------- Mobile Styles - FAQ Page --------- */
 
-   .faq-area {
+   .faq {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
    }
 
-   .faq-area .content-wrapper {
+   .faq .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
