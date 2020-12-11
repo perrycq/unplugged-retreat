@@ -356,7 +356,7 @@ textarea {
    .map figure {
     width: 100%;
     height: 0;
-    padding-bottom: 125%;
+    padding-bottom: 75%;
     overflow: hidden;
     position: relative;
    }
@@ -569,7 +569,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 40%;
+  width: 35%;
   margin: 0;
 }
 
@@ -665,6 +665,9 @@ footer .copyright {
   width:45%;
 }
 
+.map figure {
+  padding-bottom: 45.5%;
+}
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -684,13 +687,33 @@ footer .copyright {
 
 @media(min-width: 1200px) {
 /* Desktop styles */
+
+header {
+  padding: 15px 0;
+}
+
 .content-wrapper {
   max-width: 960px;
 }
 
+h2 {
+  font-size: 2.25em;
+}
+
+h3,
+h4 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.333;
+}
+
 /* Hero */
 .hero-area h1 {
-  width: 60%;
+  width: 80%;
+  font-size: 3.75em;
 }
 
 /* Aside */
@@ -700,11 +723,15 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width:30%;
+  width:40%;
+}
+
+.form-description p {
+  font-size: 1.125em;
 }
 
 /* Features */
-.fetaures h2 {
+.features h2 {
   width: 90%
 }
 
@@ -717,16 +744,40 @@ aside .content-wrapper .form {
   width:42%;
 }
 
+.reviews h2 {
+  padding-bottom: 50px;
+}
+
+footer h4 {
+  font-size: 1.875em;
+}
+
 /* ========================== About Page ================================ */
 .mission h2,
 .contact-section .content-wrapper h2 {
   width: 95%;
+  font-size:3em;
+}
+
+.map figure {
+  padding-bottom: 37.8%;
+}
+
+.contact-content h4 {
+  font-size: 1.875em;
 }
 
 /* ========================== FAQ Page ============================== */
 .faq h2 {
   width: 100%;
+  font-size:3em;
 }
+
+.faq h4,
+.faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
 
 }
 
